@@ -1,0 +1,61 @@
+/* styles.css - shared across all pages */
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  background-color: #c0e8cf;
+  color: #000;
+}
+
+.container {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+button {
+  font-family: inherit;
+  cursor: pointer;
+}
+
+img.logo {
+  width: 120px;
+  height: auto;
+  margin-bottom: 1.5rem;
+}
+
+
+.bottom-nav {
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(255, 255, 255, 0.95);
+  border-top: 2px solid #ccc;
+  padding: 0.5rem 0;
+  z-index: 1000;
+}
+
+.bottom-nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 0;
+  margin: 0;
+  gap: 1rem;
+}
+
+.bottom-nav a {
+  text-decoration: none;
+  font-size: 0.85rem;
+  font-weight: bold;
+  color: #333;
+}
+
+.bottom-nav a:hover {
+  color: #007b5e;
+}

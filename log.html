@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Log Water Activity</title>
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/log.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h2 class="log-title">Log Water Activity</h2>
+      <hr />
+
+      <div class="form-group">
+        <label for="activity">Activity</label>
+        <select id="activity" name="activity">
+          <option>Rinsed Produce</option>
+          <option>Boiled Water</option>
+          <option>Hand Washed Dishes</option>
+        </select>
+      </div>
+
+      <div class="form-group">
+        <label for="estimation">Estimation</label>
+        <div class="slider-wrapper">
+          <input
+            type="range"
+            id="estimation"
+            name="estimation"
+            min="0"
+            max="5"
+            value="2"
+          />
+          <div class="slider-labels">
+            <span>0</span><span>1</span><span>2</span><span>3</span
+            ><span>4</span><span>5</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label for="notes">Optional notes</label>
+        <textarea
+          id="notes"
+          name="notes"
+          rows="4"
+          placeholder="Type here..."
+        ></textarea>
+      </div>
+
+      <button class="save-button">Save</button>
+    </div>
+
+    <!-- Simple Bottom Navbar -->
+    <nav class="bottom-nav">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="dashboard.html">Dashboard</a></li>
+        <li><a href="log.html">Log</a></li>
+        <li><a href="achievements.html">Achievements</a></li>
+        <li><a href="report.html">Report</a></li>
+        <li><a href="notifications.html">Reminders</a></li>
+        <li><a href="settings.html">Settings</a></li>
+      </ul>
+    </nav>
+  </body>
+</html>

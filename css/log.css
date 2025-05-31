@@ -1,0 +1,87 @@
+.log-title {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  font-weight: bold;
+}
+
+hr {
+  width: 100%;
+  border: none;
+  border-top: 2px solid #000;
+  margin-bottom: 1.5rem;
+}
+
+.form-group {
+  width: 100%;
+  max-width: 320px;
+  margin-bottom: 2rem;
+  text-align: left;
+}
+
+label {
+  font-size: 1rem;
+  font-weight: bold;
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+select {
+  width: 100%;
+  padding: 0.6rem;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+  background-color: #f1f1f1;
+}
+
+.slider-wrapper {
+  width: 100%;
+}
+
+input[type="range"] {
+  width: 100%;
+  margin: 0.5rem 0;
+}
+
+.slider-labels {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.9rem;
+  padding: 0 2px;
+}
+
+textarea {
+  width: 100%;
+  padding: 0.8rem;
+  font-size: 1rem;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  resize: vertical;
+}
+
+.save-button {
+  padding: 0.8rem 1.5rem;
+  font-size: 1rem;
+  font-weight: bold;
+  background-color: white;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+/* Responsive Layouts */
+@media (min-width: 768px) {
+  .log-title {
+    font-size: 1.8rem;
+  }
+
+  .save-button {
+    font-size: 1.1rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .container {
+    padding-top: 3rem;
+  }
+}
